@@ -19,11 +19,61 @@ The purpose of this analysis is to evaluate different supervised machine learnin
 - - The recall score of this model for low risk loans is **0.67** meaning that this model will predict a low risk loan correctly 67% of the time.
 
 ### SMOTE Oversampling:
+#### Balanced Accuracy Score:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/smote_oversampling_balanced_accuracy_score.png)
+- The balanced accuracy score of this model was about **0.65** meaning 65% of the predicted credit risk outputs were predicted correctly.
+
+#### Precision and Recall:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/smote_oversampling_classification_report.png)
+- The precision score of this model for high risk loans was **0.01** meaning that there is a 1% probability that this predicted high risk loan is actually a high risk loan.
+- The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
+- The recall score of this model for high risk loans is **0.64** meaning that this model will predict a high risk loan correctly 64% of the time.
+- - The recall score of this model for low risk loans is **0.66** meaning that this model will predict a low risk loan correctly 66% of the time.
 
 ### ClusterCentroids Undersampling:
+#### Balanced Accuracy Score:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/clustercentroids_undersampling_balanced_accuracy_score.png)
+- The balanced accuracy score of this model was about **0.53** meaning 53% of the predicted credit risk outputs were predicted correctly.
+
+#### Precision and Recall:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/clustercentroids_undersampling_classification_report.png)
+- The precision score of this model for high risk loans was **0.01** meaning that there is a 1% probability that this predicted high risk loan is actually a high risk loan.
+- The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
+- The recall score of this model for high risk loans is **0.61** meaning that this model will predict a high risk loan correctly 61% of the time.
+- - The recall score of this model for low risk loans is **0.45** meaning that this model will predict a low risk loan correctly 45% of the time.
 
 ### SMOTEENN Combination Sampling:
+#### Balanced Accuracy Score:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/smoteenn_balanced_accuracy_score.png)
+- The balanced accuracy score of this model was about **0.64** meaning 64% of the predicted credit risk outputs were predicted correctly.
+
+#### Precision and Recall:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/smoteenn_classification_report.png)
+- The precision score of this model for high risk loans was **0.01** meaning that there is a 1% probability that this predicted high risk loan is actually a high risk loan.
+- The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
+- The recall score of this model for high risk loans is **0.70** meaning that this model will predict a high risk loan correctly 70% of the time.
+- - The recall score of this model for low risk loans is **0.57** meaning that this model will predict a low risk loan correctly 57% of the time.
 
 ### Balanced Random Forest Classifier:
+#### Balanced Accuracy Score:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/balanced_random_forest_balanced_accuracy_score.png)
+- The balanced accuracy score of this model was about **0.81** meaning 81% of the predicted credit risk outputs were predicted correctly.
+
+#### Precision and Recall:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/balanced_random_forest_classification_report.png)
+- The precision score of this model for high risk loans was **0.03** meaning that there is a 3% probability that this predicted high risk loan is actually a high risk loan.
+- The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
+- The recall score of this model for high risk loans is **0.72** meaning that this model will predict a high risk loan correctly 72% of the time.
+- - The recall score of this model for low risk loans is **0.89** meaning that this model will predict a low risk loan correctly 89% of the time.
 
 ### Easy Ensemble AdaBoost Classifier:
+#### Balanced Accuracy Score:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/easy_ensemble_adaboost_balanced_accuracy_score.png)
+- The balanced accuracy score of this model was about **0.93** meaning 93% of the predicted credit risk outputs were predicted correctly.
+
+#### Precision and Recall:
+![Credit_Risk](https://github.com/mbroad1/Module-17-Credit-Risk-Analysis/blob/main/easy_ensemble_adaboost_classification_report.png)
+- The precision score of this model for high risk loans was **0.07** meaning that there is a 7% probability that this predicted high risk loan is actually a high risk loan.
+- The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
+- The recall score of this model for high risk loans is **0.91** meaning that this model will predict a high risk loan correctly 91% of the time.
+- - The recall score of this model for low risk loans is **0.94** meaning that this model will predict a low risk loan correctly 94% of the time.
