@@ -77,3 +77,7 @@ The purpose of this analysis is to evaluate different supervised machine learnin
 - The precision score of this model for low risk loans was **1.00** meaning that there is a 100% probability that this predicted low risk loan is actually a low risk loan.
 - The recall score of this model for high risk loans is **0.91** meaning that this model will predict a high risk loan correctly 91% of the time.
 - - The recall score of this model for low risk loans is **0.94** meaning that this model will predict a low risk loan correctly 94% of the time.
+---
+## Summary:
+- Out of all the machine learning models, the model with the best balanced accuracy score, precision scores, and recall scores was the Easy Ensemble AdaBoost Classifier with an accuracy score of around **0.93**, a precision of **0.07** for high risk loans, a precision of **1.00** for low risk loans, a recall of **0.91** for high risk loans, and a recall of **0.94** for low risk loans.
+- The worst performing machine learning model was the ClusterCentroids Undersampling model with an accuracy score of **0.53**, a precision of **0.01** for high risk loans, a precision of **1.00** for low risk loans, a recall of **0.61** for high risk loans, and a recall of **0.45** for low risk loans.
